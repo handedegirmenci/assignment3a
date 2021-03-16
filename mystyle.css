@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  justify-content: center;
+  background: black;
+  }
+
+#container{
+  position: relative;
+  top:100px;
+  background: #CCC;
+  width:530px;
+  }
+
+#content-box{
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-family: "Georgia"
+  }
+#content-box h1{
+  text-align:center;
+  }
+
+  ul{
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 15px
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Georgia"
+  }
+
+  a {
+    text-decoration: none;
+    background: #FFF;
+    padding: 15px;
+  }
+
+  a:hover{
+    background: #CCC;
+  }
